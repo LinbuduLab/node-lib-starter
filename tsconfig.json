@@ -1,0 +1,23 @@
+{
+  "include": ["src"],
+  "exclude": ["tests", "node_modules"],
+  "compilerOptions": {
+    "module": "ES6",
+    "target": "ES2018",
+    "lib": ["esnext"],
+    "importHelpers": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false
+  }
+}
