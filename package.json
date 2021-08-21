@@ -1,6 +1,6 @@
 {
   "name": "linbudu-lib-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NodeJS library develop quick start: TypeScript + CI/CD + Release Workflow + Linter + Changelog + ...",
   "main": "dist/index.js",
   "types": "dist/types",
