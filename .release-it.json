@@ -1,5 +1,11 @@
 {
   "github": {
     "release": true
+  },
+  "npm": {
+    "skipCheck": true
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

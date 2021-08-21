@@ -1,2 +1,11 @@
 *.md
 src
+.commitlintrc.js      
+.cz-config.js         
+.eslintrc.json        
+.prettierignore       
+.prettierrc           
+.release-it.json                   
+README.md
+jest.setup.ts
+pnpm-lock.yaml

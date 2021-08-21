@@ -1,5 +1,5 @@
 {
-  "name": "@penumbra/lib-starter",
+  "name": "linbudu-lib-starter",
   "version": "0.0.1",
   "description": "NodeJS library develop quick start: TypeScript + CI/CD + Release Workflow + Linter + Changelog + ...",
   "main": "dist/index.js",
@@ -26,7 +26,7 @@
     "url": "git+https://github.com/linbudu599/node-lib-starter.git"
   },
   "keywords": [],
-  "author": "linbudu599",
+  "author": "linbudu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/linbudu599/node-lib-starter/issues"
