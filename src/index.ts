@@ -1,1 +1,3 @@
-console.log("Start!");
+export * from './sample';
+
+console.log('Start!');
