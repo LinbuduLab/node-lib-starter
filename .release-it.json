@@ -7,5 +7,17 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "git": {
+    "changelog": "auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs"
+  },
+  "hooks": {
+    "after:bump": "auto-changelog -p"
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md"
+    }
   }
 }
