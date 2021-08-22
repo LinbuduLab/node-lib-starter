@@ -1,12 +1,12 @@
 # node-lib-starter
 
+Start NodeJS + TypeScript library developing with ease.
+
 ## Include
 
 - [x] Lint
-- [ ] Git Hooks
+- [x] Git Hooks
 - [x] Release workflow
 - [x] CI/CD
 - [x] Changelog
-- [ ] Contributor
-- [ ] CONTRIBUTING
 - [x] Configuration
