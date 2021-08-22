@@ -19,7 +19,10 @@
     "test": "jest --color --runInBand",
     "test:watch": "jest --color --watch --verbose --passWithNoTests",
     "test:affected": "jest --lastCommit",
-    "test:list": "jest --listTests"
+    "test:list": "jest --listTests",
+    "postinstall": "is-ci || husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
   },
   "repository": {
     "type": "git",
@@ -52,7 +55,10 @@
     "cz-customizable": "^6.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.1",
+    "is-ci": "^3.0.0",
     "jest": "^27.0.6",
+    "pinst": "^2.1.6",
     "prettier": "^2.3.2",
     "release-it": "^14.11.5",
     "ts-jest": "^27.0.5",

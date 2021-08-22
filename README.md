@@ -9,5 +9,4 @@
 - [x] Changelog
 - [ ] Contributor
 - [ ] CONTRIBUTING
-- [ ] Docs + Docs Deploy
 - [x] Configuration
