@@ -7,7 +7,7 @@
   "scripts": {
     "release": "release-it",
     "release:dry": "release-it --dry-run",
-    "dev": "tsnd --respawn --transpile-only  ./src/demo.ts",
+    "dev": "tsnd --respawn --transpile-only  ./src/index.ts",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "check": "tsc --noEmit",

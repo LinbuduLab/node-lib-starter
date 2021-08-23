@@ -1,6 +1,6 @@
 # node-lib-starter
 
-Start NodeJS + TypeScript library developing with ease.
+Start NodeJS + TypeScript library developing with ease, have fun!
 
 ## Include
 
