@@ -3,7 +3,7 @@
     "release": true
   },
   "npm": {
-    "skipCheck": true
+    "skipChecks": true
   },
   "publishConfig": {
     "access": "public"
