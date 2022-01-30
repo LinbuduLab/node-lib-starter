@@ -9,7 +9,8 @@
     "access": "public"
   },
   "git": {
-    "changelog": "auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs"
+    "requireCleanWorkingDir": false,
+    "requireBranch": ["master", "main"]
   },
   "hooks": {
     "after:bump": "auto-changelog -p"
